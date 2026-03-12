@@ -1,22 +1,34 @@
-# 📝 Stickify — Smart Sticky Notes App
+# 📝 DragNotes — Smart Sticky Notes App
 
-A modern **Sticky Notes Web Application** built with **Vanilla JavaScript, HTML, and CSS**.
+A modern **Sticky Notes Web Application** built with **Vanilla JavaScript, HTML, and CSS**.  
 Create notes, drag them anywhere on the screen, auto-save content, and persist everything using **LocalStorage**.
 
 This project demonstrates strong fundamentals of **DOM manipulation, event delegation, data persistence, and drag-and-drop systems**.
 
 ---
 
+# 📸 Preview
+
+### 🧾 Notes Interface
+
+![App Preview](preview/app-preview.png)
+
+### 🖱️ Drag and Drop Functionality
+
+![Drag Preview](preview/drag-preview.png)
+
+---
+
 # 🚀 Features
 
-✔ Create unlimited sticky notes
-✔ Drag notes anywhere on the screen
-✔ Auto-save text while typing
-✔ Delete notes instantly
-✔ Persistent storage using LocalStorage
-✔ Restore notes and positions after page reload
-✔ Clean event-delegation architecture
-✔ Lightweight — no frameworks
+✔ Create unlimited sticky notes  
+✔ Drag notes anywhere on the screen  
+✔ Auto-save text while typing  
+✔ Delete notes instantly  
+✔ Persistent storage using LocalStorage  
+✔ Restore notes and positions after page reload  
+✔ Clean event-delegation architecture  
+✔ Lightweight — no frameworks  
 
 ---
 
@@ -38,14 +50,18 @@ This project focuses on mastering core JavaScript concepts:
 
 # 📂 Project Structure
 
-```
-stickify-js/
+DragNotes/
 │
 ├── index.html
-├── style.css
-├── script.js
+├── css/
+│ └── style.css
+├── js/
+│ └── script.js
+├── preview/
+│ ├── app-preview.png
+│ └── drag-preview.png
 └── README.md
-```
+
 
 ---
 
@@ -55,33 +71,31 @@ The application maintains a **single source of truth** using a JavaScript array.
 
 Example data structure:
 
-```
+
 [
- {
-  id: 171001,
-  text: "Buy milk",
-  color: "#ff0000",
-  x: 340,
-  y: 200
- }
+{
+id: 171001,
+text: "Buy milk",
+color: "#ff0000",
+x: 340,
+y: 200
+}
 ]
-```
 
 Workflow:
 
-```
 User Action
-     ↓
+↓
 DOM Event Triggered
-     ↓
+↓
 Find Note Element
-     ↓
+↓
 Update Data Array
-     ↓
+↓
 Save to LocalStorage
-     ↓
+↓
 Update UI
-```
+
 
 ---
 
@@ -107,18 +121,6 @@ This project was built to strengthen skills in:
 
 ---
 
-# 📸 Preview
-
-(Add screenshots here after uploading images)
-
-Example:
-
-```
-/preview/app-preview.png
-```
-
----
-
 # 🔮 Future Improvements
 
 - Mobile touch support
@@ -135,10 +137,11 @@ Example:
 
 Frontend Developer (WordPress & JavaScript)
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/taffuwebx09
 
 ---
 
 # ⭐ If you like this project
 
 Give it a ⭐ on GitHub and feel free to contribute!
+
